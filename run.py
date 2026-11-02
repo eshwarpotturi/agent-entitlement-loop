@@ -5,7 +5,7 @@ Loop:  designer drafts rulebook -> business tasks run (capability) -> red team a
 
 Usage:
   python run.py --scripted            # no LLM, no cost: checks the plumbing end to end
-  LLMFOUNDRY_TOKEN=... python run.py            # Straive LLM Foundry (default)
+  LLMFOUNDRY_TOKEN=... python run.py            # LLM Foundry (default)
 """
 import argparse
 import json
