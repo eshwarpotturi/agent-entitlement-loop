@@ -333,7 +333,7 @@ footer{color:var(--muted);font-size:.85rem;border-top:1px solid var(--line);padd
   }
   show("r1");
   const t = new Date(R.run_at).toLocaleString("en-IN",{timeZone:"Asia/Kolkata",day:"numeric",month:"short",year:"numeric",hour:"2-digit",minute:"2-digit"});
-  document.getElementById("foot").textContent = `Run ${t} IST · GPT-4.1-mini via Straive LLM Foundry · ${R.calls} LLM calls · about $${R.cost.toFixed(3)} (₹${(R.cost*100).toFixed(1)}) · synthetic data, fictional companies`;
+  document.getElementById("foot").textContent = `Run ${t} IST · GPT-4.1-mini via LLM Foundry · ${R.calls} LLM calls · about $${R.cost.toFixed(3)} (₹${(R.cost*100).toFixed(1)}) · synthetic data, fictional companies`;
 })();
 </script>
 
