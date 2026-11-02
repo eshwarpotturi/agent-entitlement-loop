@@ -17,7 +17,7 @@ An **entitlement gateway** (plain code, no LLM) enforces the rulebook on every t
 ## Why
 Banks are deploying agents across many systems, but there is no agreed way to decide which agent may do what, on whose behalf. Hand-writing rules for every agent and system does not scale, and static rules miss attacks that use legitimate access (for example one agent asking another to fetch data for it).
 
-## Result of the recorded run (13 Oct 2026, GPT-4.1-mini via Straive LLM Foundry, 156 calls, about $0.04)
+## Result of the recorded run (13 Oct 2026, GPT-4.1-mini via LLM Foundry, 156 calls, about $0.04)
 | Round | Rulebook | Attack goals breached | Business tasks working |
 |---|---|---|---|
 | 0 | none | 4 of 4 | 5 of 5 |
